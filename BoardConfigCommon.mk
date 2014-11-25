@@ -14,3 +14,6 @@
 
 # inherit from qcom-common
 include device/sony/qcom-common/BoardConfigCommon.mk
+
+# Lights HAL
+TARGET_PROVIDES_LIBLIGHT := true
