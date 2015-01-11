@@ -1,4 +1,5 @@
 # Copyright (C) 2014 The CyanogenMod Project
+# Copyright (C) 2015 The OmniROM Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -17,3 +18,9 @@ include device/sony/qcom-common/BoardConfigCommon.mk
 
 # Lights HAL
 TARGET_PROVIDES_LIBLIGHT := true
+
+# headers
+TARGET_SPECIFIC_HEADER_PATH += device/sony/msm8960-common/include
+
+# RIL
+BOARD_PROVIDES_LIBRIL := true
