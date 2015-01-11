@@ -17,3 +17,8 @@ include device/sony/qcom-common/BoardConfigCommon.mk
 
 # Lights HAL
 TARGET_PROVIDES_LIBLIGHT := true
+
+TARGET_SPECIFIC_HEADER_PATH += device/sony/msm8960-common/include
+
+# RIL
+BOARD_PROVIDES_LIBRIL := true
