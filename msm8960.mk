@@ -30,6 +30,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     qcmediaplayer
 
+# Camera wrapper
+PRODUCT_PACKAGES += \
+    camera.qcom
+
 # Lights wrapper
 PRODUCT_PACKAGES += \
     lights.qcom
